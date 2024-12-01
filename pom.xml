@@ -49,6 +49,9 @@
                 <version>3.1.2</version>
             	<configuration>
                 	<suiteXmlFiles></suiteXmlFiles> <!-- Ensure no conflicting surefire configurations -->
+  				 <includes>
+        			<include>**/MyAppTesting.java</include>
+    			</includes>
             	</configuration>
             </plugin>
         </plugins>
