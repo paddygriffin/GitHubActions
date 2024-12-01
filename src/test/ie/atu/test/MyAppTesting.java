@@ -1,4 +1,4 @@
-package ie.atu.test;
+package test.ie.atu.test;
 
 import org.junit.jupiter.api.Test;
 
