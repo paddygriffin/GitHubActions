@@ -32,7 +32,7 @@ jobs:
       run: mvn clean install
 
     - name: Run a single test
-      run: mvn test -Dtest=MyAppTesting #testAddition
+      run: mvn test -Dtest=testAddition #testAddition
 
     - name: Run the test suite #test additiont and sub
       run: mvn test
