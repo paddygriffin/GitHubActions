@@ -16,6 +16,6 @@ public class MyAppTesting {
 
     @Test
     void testSubtraction() {
-        assertEquals(3, app.subtract(3, 2));
+        assertEquals(1, app.subtract(3, 2));
     }
 }
