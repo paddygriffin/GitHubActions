@@ -19,7 +19,14 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
+        distribution: 'temurin' 
         java-version: '17'
+        java-package: 'jdk'
+        check-latest: false
+        server-id: github
+        server-username: ${{ secrets.GITHUB_ACTOR }}
+        server-password: ${{ secrets.GITHUB_TOKEN }}
+        overwrite-settings: true
 
     - name: Install dependencies
       run: mvn install
