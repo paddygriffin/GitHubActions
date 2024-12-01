@@ -31,8 +31,8 @@ jobs:
     - name: Install dependencies
       run: mvn install
 
-    #- name: Run a single test
-     # run: mvn test -Dtest=test.ie.atu.test.MyAppTesting
+    - name: Run a single test
+      run: mvn test -Dtest=test.ie.atu.test.MyAppTesting -X
 
     - name: Run the test suite #test additiont and sub
       run: mvn test
